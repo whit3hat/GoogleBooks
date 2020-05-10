@@ -1,6 +1,9 @@
 import React from 'react';
 import Books from './pages/Books';
 import Nav from './components/Nav';
+import Search from './components/Search';
+import Saved from './components/Saved';
+//axios variable import for api query
 const axios = require('axios').default;
 
 // URL for Google Books
@@ -22,6 +25,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <Search />
       <Books />
     </div>
   );
