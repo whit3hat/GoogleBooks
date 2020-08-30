@@ -2,9 +2,16 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
 /.pnp
 .pnp.js
 node_modules/
+=======
+/client/node_modules
+/.pnp
+.pnp.js
+
+>>>>>>> 0c7d7352aebcbf282b975e4d23e986e84e845f26
 # testing
 /coverage
 
@@ -17,7 +24,10 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
 /key.js
+=======
+>>>>>>> 0c7d7352aebcbf282b975e4d23e986e84e845f26
 
 npm-debug.log*
 yarn-debug.log*
