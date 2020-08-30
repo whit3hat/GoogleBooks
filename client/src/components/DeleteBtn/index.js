@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import "./style.css";
 
@@ -13,17 +12,3 @@ function DeleteBtn(props) {
 }
 
 export default DeleteBtn;
-=======
-import React from 'react';
-import './style.css';
-
-function DeleteBtn(props){
-    return (
-        <span className='delete-btn' {...props} roles='button' tabIndex='0'>
-           ✗ 
-        </span>
-    );
-}
-
-export default DeleteBtn;
->>>>>>> 0c7d7352aebcbf282b975e4d23e986e84e845f26
