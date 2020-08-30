@@ -14,4 +14,4 @@ router
     .delete(booksController.remove);
 
 
-modules.exports = router;
+module.exports = router;
