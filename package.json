@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "googlebooks",
-  "version": "0.1.0",
-  "description": "Google Books API React Application",
-  "main": "server.js",
-  "dependencies": {
-    "axios": "0.19.2",
-    "express": "4.17.1",
-    "if-env": "^1.0.4",
-    "mongoose": "5.9.15",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-router-dom": "5.2.0",
-    "react-scripts": "^3.4.3",
-    "serve": "^11.3.2"
-=======
   "name": "gbooks",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +16,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
->>>>>>> 0c7d7352aebcbf282b975e4d23e986e84e845f26
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -47,11 +30,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-<<<<<<< HEAD
-  "devDependencies": {
-    "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-=======
   "browserslist": {
     "production": [
       ">0.2%",
@@ -63,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 0c7d7352aebcbf282b975e4d23e986e84e845f26
   }
 }
