@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Jumbotron from "../components/Jumbotron";
 import DeleteBtn from "../components/DeleteBtn";
 import API from "../utils/API";
+import { googleBooks } from '../utils/Gbooks';
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
@@ -25,6 +26,13 @@ function Books() {
       .catch(err => console.log(err));
   };
 
+
+  // Function to use Google Books API
+  const search = async (e) => {
+    const data = await googleBooks(query)
+    console.log(data)
+    // takes the data from the search to use in the query
+  }
 
     return (
       <Container fluid>
